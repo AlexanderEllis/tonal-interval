@@ -1,0 +1,96 @@
+* {
+  -webkit-touch-callout: none; /* iOS Safari */
+  -webkit-user-select: none;   /* Chrome/Safari/Opera */
+  -khtml-user-select: none;    /* Konqueror */
+  -moz-user-select: none;      /* Firefox */
+  -ms-user-select: none;       /* Internet Explorer/Edge */
+  cursor:default;
+}
+
+body {
+  color:white;
+  background-color:#333333;
+}
+
+#title {
+  font-size:14vh;
+  font-family:"Poiret One";
+  width:80vw;
+  margin: 0 auto;
+  margin-top:5vh;
+  margin-bottom:5vh;
+  text-align:center;
+}
+
+#container {
+  width:14vw;
+  height:6vh;
+  margin: auto;
+  margin-top:10vh;
+}
+
+#pause {
+  width:6vh;
+  height:6vh;
+  position:relative;
+  float:left;
+}
+
+#play {
+  height:0;
+  width:0;
+  border-top:3vh solid transparent;
+  border-left:5vh solid white;
+  border-bottom:3vh solid transparent;
+  position:relative;
+  float:right;
+}
+
+
+.pauseBars {
+  width:40%;
+  height:100%;
+  position:relative;
+  background-color:white;
+}
+
+#leftBar {
+  float:left;
+}
+
+#rightBar {
+  float:right;
+}
+
+#controls {
+  width:80%;
+  margin:0 auto;
+  margin-top:10vh;
+  background-color:red;
+}
+
+.controlButton {
+  width:33%;
+  font-size:5vh;
+  font-family:"Poiret One";
+  position:relative;
+  float:left;
+  text-align:center;
+}
+
+.controlContainer {
+  width:55%;
+  margin:auto;
+}
+
+.minuses {
+  position:relative;
+  float:left;
+  font-size:6vh;
+}
+
+.pluses {
+  position:relative;
+  float:right;
+  font-size:6vh;
+}
